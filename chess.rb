@@ -32,8 +32,6 @@ class ChessGame
     start_the_game()
   end
 
-  #changing some stuff
-
   def start_the_game()
     color_to_play = "white"
     until checkmate?() || stalemate?()
